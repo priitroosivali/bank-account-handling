@@ -2,21 +2,22 @@
 # Description
 REST API for handling bank account functions. Spring Boot application with H2 database.
 
-Ability to create new accounts. 
-Able to request all Account balance which includes all currencies as seperate balances.
-Add funds to a specific currency in an account. 
-Debit funds from a specific currency from an account. 
-Able to exchange from one currency to another with a fixed rate if funds are available.
-Currently supports only 4 currencies for simplicity. (EUR, USD, SEK, RUB).
-Currently Database is automatically filled with one Account on start up and refreshes to that state on each restart.
+
+Ability to create new accounts.  
+Able to request all Account balance which includes all currencies as seperate balances.  
+Add funds to a specific currency in an account.   
+Debit funds from a specific currency from an account.   
+Able to exchange from one currency to another with a fixed rate if funds are available.  
+Currently supports only 4 currencies for simplicity. (EUR, USD, SEK, RUB).  
+Currently Database is automatically filled with one Account on start up and refreshes to that state on each restart  
 
 # Setup Instructions
 
-Clone repository to local machine.
-Update dependencies.
-Run BankAccountHandlingApplication.
-H2 db starts automatically with console enabled at localhost:8080/h2-console. Password: "pass" Username: "root".
-To test requests can use Postman.
+Clone repository to local machine.  
+Update dependencies.  
+Run BankAccountHandlingApplication.  
+H2 db starts automatically with console enabled at localhost:8080/h2-console. Password: "pass" Username: "root".  
+To test requests can use Postman.  
 
 # API Documentation
 
